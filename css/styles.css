@@ -402,9 +402,11 @@ line-height: 100%;
 .main{
   
   height: 600px;
-  background-image: url(/images/main/people.jpg) ;
+  
+  background-image: url(/images/main/people.jpg);
+  background-image: radial-gradient(#2F303A 40%);
   background-size: cover;
-  background-color: linear-gradient(url(/images/main/Img\ Overlay\ \(1\).jpg));
+  
 }
   
 .main image{
