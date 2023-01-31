@@ -199,6 +199,12 @@ padding-bottom: 20px;
   width: 40px;
   height: 40px;
 }
+  .part2 svg:hover{
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+  }
+
 .main{
   text-align: center;
 }
@@ -252,10 +258,7 @@ h2{
   margin-left: 15px;
   
 }
-.ourteam{
-  
 
-}
 .ourteam h2{
   
 }
@@ -271,7 +274,7 @@ margin-inline: 15px;
 text-align: center;
 justify-items: center;
 align-items: center;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
 
 
@@ -283,26 +286,36 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   padding-top: 10px;
 }
 .employees svg{
-width: 260px;
-height: 100px;
-padding-top: 16px;
-
+width: 26px;
+height: 40px;
 
 }
 
-.clients svg{
-  width: 80px;
-  height: 40px;
-  margin-inline: 55px;
 
-
+.quarter{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  
 }
-
-.ourteam svg:hover{
+.quarter div{
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.quarter svg:hover{
   color: var(--white);
   background-color: var(--blue);
   border: 1px var(--blue);
   cursor: pointer;
+}
+.clients svg{
+  width: 80px;
+  height: 40px;
+  margin-inline: 55px;
+}
+.clients svg:hover{
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
 }
 :root{
   --border: #EEEEEE;
@@ -434,10 +447,7 @@ line-height: 100%;
   
 }
   
-.main image{
-  
-  
-}
+
 .main button{
   font-size: 16px;
   line-height: 188%;
