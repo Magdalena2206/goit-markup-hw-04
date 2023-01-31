@@ -23,17 +23,19 @@ section{
   justify-items: center;
   align-items: center;
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: auto;
   inline-size: 100%;
   width: 1200px;
+  padding-top: ;
 }
 
   
 
 .nav{
   padding-left: 93px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  
   padding-right: 318px;
   
 }
@@ -45,24 +47,28 @@ section{
 }
 
 .nav div{
-  padding-right: 46px;
+  padding-right: 23px;
+  padding-left: 23px;
 }
 .contact {
+  
   display: flex;
   flex-direction: row;
+ 
+}
+.contact div{
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
 }
 .contact svg{
-  padding-top: 34px;
-   padding-bottom: 34px;
-   padding-right: 5px;
+  
+   width: 21px;
+   height: 16px;
+   
   }
-
-.contact a{
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 5px;
-}
-
 
 .second{
   display: flex;
@@ -201,21 +207,14 @@ padding-right: 70px;
 
 }
 .lorem div{
-  
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
-
-
-  .lorem h6{
-    padding-bottom: 10px;
-  }
- .lorem p{
-  width: 270px;
-  height: 75px;
- }
 .lorem svg{
+  width: 70px;
+  height: 70px;
   
   
 }
@@ -227,7 +226,7 @@ h2{
 .photo{
   display: flex;
   flex-direction:row;
-  max-width: 100%;
+  
   
 }
 .photo div{
@@ -236,8 +235,13 @@ h2{
   margin-left: 15px;
   
 }
+.ourteam{
+  
 
-
+}
+.ourteam h2{
+  
+}
 .employees{
   display: flex;
   flex-direction:row;
@@ -246,10 +250,11 @@ h2{
  
    }
 .employees div{
-padding-left: 15px;
-padding-right: 15px;
+margin-inline: 15px;
 text-align: center;
 justify-items: center;
+align-items: center;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -260,7 +265,21 @@ justify-items: center;
 .employees p{
   padding-top: 10px;
 }
+.employees svg{
+width: 260px;
+height: 100px;
+padding-top: 16px;
 
+
+}
+
+.clients svg{
+  width: 80px;
+  height: 40px;
+  margin-inline: 55px;
+
+
+}
 :root{
   --border: #EEEEEE;
 }
@@ -383,7 +402,8 @@ line-height: 100%;
 .main{
   
   height: 600px;
-  background-image: url(/images/main/people.jpg);
+  background-image: url(/images/main/people.jpg) ;
+  background-size: cover;
   background-color: linear-gradient(url(/images/main/Img\ Overlay\ \(1\).jpg));
 }
   
@@ -434,7 +454,8 @@ color:var(--grey);
 
 .ourteam{
   background-color: #F5F4FA;
-  height: 648px;
+  height: 708px;
+ 
  
 }
 
@@ -450,4 +471,11 @@ color:var(--grey);
   line-height: 100%;
   color:var(--grey);
 }
-background-color: var(--grey2);
+
+
+.clients h2{
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+color: var(--black);
+}
