@@ -54,17 +54,13 @@ section{
 .contact svg{
   padding-top: 34px;
    padding-bottom: 34px;
-   padding-right: 10px;
+   padding-right: 5px;
+  }
 
-}
-.contact div{
-  display: flex;
-  flex-direction:row;
-
-}
 .contact a{
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 5px;
 }
 
 
