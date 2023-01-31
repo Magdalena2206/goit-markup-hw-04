@@ -24,8 +24,8 @@ section{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
- inline-size: 100%;
- width: 1200px;
+  inline-size: 100%;
+  width: 1200px;
 }
 
   
@@ -35,13 +35,13 @@ section{
   margin-top: 32px;
   margin-bottom: 32px;
   padding-right: 318px;
- 
+  
 }
 
 .nav nav{
+  
   display: flex;
   flex-direction: row;
-  
 }
 
 .nav div{
@@ -52,22 +52,21 @@ section{
   flex-direction: row;
 }
 .contact svg{
-  display: flex;
-  flex-direction: row;
+  padding-top: 34px;
+   padding-bottom: 34px;
+   padding-right: 10px;
+
 }
 .contact div{
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-right: 227px;
   display: flex;
   flex-direction:row;
+
+}
+.contact a{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.contact a{
-  padding-right: 50px;
-  justify-content:center;
-  flex-direction:row;
-}
 
 .second{
   display: flex;
