@@ -47,19 +47,26 @@ section{
 .nav div{
   padding-right: 46px;
 }
-
+.contact{
+  display: flex;
+  flex-direction: row;
+}
+.contact svg{
+  display: flex;
+  flex-direction: row;
+}
 .contact div{
   margin-top: 32px;
   margin-bottom: 32px;
   padding-right: 227px;
   display: flex;
-  flex-direction:row-reverse;
+  flex-direction:row;
 }
 
 .contact a{
   padding-right: 50px;
-  justify-content: flex-end;
-  flex-direction:row-reverse;
+  justify-content:center;
+  flex-direction:row;
 }
 
 .second{
