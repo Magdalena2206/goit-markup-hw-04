@@ -47,7 +47,7 @@ section{
 .nav div{
   padding-right: 46px;
 }
-.contact{
+.contact {
   display: flex;
   flex-direction: row;
 }
@@ -136,7 +136,13 @@ section{
   border:var(--border) 1px solid;
   margin-bottom: 30px;
 }
-
+.last{
+  display: flex;
+  flex-direction: row;
+}
+.part1{
+padding-right: 70px;
+}
 .logo-footer{
   display: flex;
   justify-items: center;
@@ -145,6 +151,7 @@ section{
   padding-top: 60px;
  
 }
+
 
 .address{
   display: flex;
@@ -163,7 +170,12 @@ section{
   padding-bottom: 9px;
   text-decoration: underline;
 }
+.part2{
+  display: flex;
+  flex-direction:column; 
+  padding-top: 72px;
 
+}
 .main{
   text-align: center;
 }
@@ -181,24 +193,32 @@ section{
 }
 
 .lorem {
-  
   display:flex;
   flex-direction: row;
   
-  margin-left: auto;
-  margin-right: auto;
+  
+
 
 }
 .lorem div{
+  
   padding-left: 15px;
   padding-right: 15px;
 }
 
+
+
   .lorem h6{
     padding-bottom: 10px;
   }
- 
-
+ .lorem p{
+  width: 270px;
+  height: 75px;
+ }
+.lorem svg{
+  
+  
+}
 h2{
   text-align: center;
   padding-bottom: 50px;
@@ -354,12 +374,23 @@ footer {
   color: var(--blue);
   text-decoration: none;
 }
-
-.main{
-  background-color: var(--grey2);
-  height: 600px;
+.part2 p{
+  color: var(--white);
+  font-weight: 700;
+font-size: 14px;
+line-height: 100%;
 }
-
+.main{
+  
+  height: 600px;
+  background-image: url(/images/main/people.jpg);
+  background-color: linear-gradient(url(/images/main/Img\ Overlay\ \(1\).jpg));
+}
+  
+.main image{
+  
+  
+}
 .main button{
   font-size: 16px;
   line-height: 188%;
@@ -419,3 +450,4 @@ color:var(--grey);
   line-height: 100%;
   color:var(--grey);
 }
+background-color: var(--grey2);
