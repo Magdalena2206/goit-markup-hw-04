@@ -299,6 +299,7 @@ margin-left: 10px;
 .quarter{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   height: 428px;
+  background-color: var(--white);
 }
 .quarter div{
   padding-bottom: 30px;
@@ -495,7 +496,10 @@ color:var(--grey);
 
 .ourteam{
   background-color: #F5F4FA;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .employees h3{
   font-size: 16px;
