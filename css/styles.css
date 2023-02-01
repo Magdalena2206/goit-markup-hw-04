@@ -233,16 +233,30 @@ padding-bottom: 20px;
 
 }
 .lorem div{
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 270px;
+  height: 120px;
+background-color: #F5F4FA;
+border-radius:4px;
 
 }
 
 .lorem svg{
   width: 70px;
   height: 70px;
-  
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ margin-bottom: 25px;
+margin-top: 25px;
+}
+
+.lorem h6{
+  margin-top: 55px;
+}
+.lorem p{
+
 }
 h2{
   text-align: center;
@@ -300,6 +314,7 @@ margin-left: 10px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   height: 428px;
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 .quarter div{
   padding-bottom: 30px;
@@ -478,7 +493,7 @@ line-height: 100%;
   color:var(--black);
 }
 
-.lorem a{
+.lorem p{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
