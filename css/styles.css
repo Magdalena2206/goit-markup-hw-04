@@ -28,7 +28,7 @@ section{
   margin-right: auto;
   inline-size: 100%;
   width: 1200px;
-  padding-top: ;
+  
 }
 
   
@@ -125,6 +125,7 @@ section{
 }
 .one div:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .two {
   flex-direction: row;
@@ -137,6 +138,7 @@ section{
 }
 .two div:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .three {
   flex-direction: row;
@@ -149,6 +151,7 @@ section{
 }
 .three div:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .last{
   display: flex;
@@ -259,12 +262,11 @@ h2{
   
 }
 
-.ourteam h2{
-  
-}
+
 .employees{
   display: flex;
   flex-direction:row;
+ 
    }
 .employees div{
 margin-inline: 15px;
@@ -276,22 +278,27 @@ align-items: center;
 
 
 .employees h3{  
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .employees p{
   padding-top: 10px;
 }
+.employees img{
+  height: 260px;
+  width: 270px;
+}
 .employees svg{
-width: 26px;
+width: 20px;
 height: 40px;
-
+margin-right: 10px;
+margin-left: 10px;
 }
 
 
 .quarter{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  height: 350px;
+  height: 428px;
 }
 .quarter div{
   padding-bottom: 30px;
@@ -488,9 +495,6 @@ color:var(--grey);
 
 .ourteam{
   background-color: #F5F4FA;
-  height: 708px;
- 
- 
 }
 
 .employees h3{
