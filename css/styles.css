@@ -208,20 +208,21 @@ padding-bottom: 20px;
     cursor: pointer;
   }
 
-.main{
-  text-align: center;
-}
 
 .main h1{
+  text-align: center;
   padding-top: 200px;
-  padding-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .main button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
  padding-left: 41px;
- padding-right: 42px;
- padding-bottom: 10;
- padding-top: 10;
+ padding-right: 41px;
+ padding-bottom: 10px;
+ padding-top: 10px;
 }
 
 .lorem {
@@ -460,10 +461,10 @@ line-height: 100%;
 .main{
   
   height: 600px;
-  
+  width: 1600px;
   background-image: url(/images/main/people.jpg);
   background-image: radial-gradient(#2F303A 40%);
-  background-size: cover;
+  background-size:auto;
   
 }
   
@@ -484,6 +485,8 @@ line-height: 100%;
   font-size: 44px;
   line-height: 136%;
   font-weight: 900;
+  letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .lorem h6{
