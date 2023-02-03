@@ -310,29 +310,42 @@ h2 {
   line-height: 100%;
   color: var(--black);
 }
+.logoclients{
+  display: flex;
+  flex-direction: row;
+  
+}
+.logoclients svg {
+  width: 90px;
+  height: 90px;
+  display: block;
+  padding-top: 20px;
+  margin: auto;
+  
 
-.clients svg {
- display:inline;
-  width: 80px;
-  height: 40px;
-  align-content: center;
+}
+
+.logoclients div{
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
   margin-left: 10px;
   margin-right: 10px;
   border: 1px solid #AFB1B8;
-border-radius: 4px;
-width: 170px;
-height: 92px;
-justify-content: center;
 }
-.clients svg:hover {
-  color: var(--blue);
+.logoclients div:hover {
+  
   border: 1px solid #2196F3;
 border-radius: 4px;
   cursor: pointer;
-  width: 170px;
-height: 92px;
 }
+.logoclients svg:hover{
+  color: var(--blue);
 
+}
+svg:hover{
+  color: var(--blue);
+}
 .second {
   display: flex;
   flex-direction: row;
