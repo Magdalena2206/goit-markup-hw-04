@@ -93,7 +93,6 @@ button:hover {
 
 .nav {
   padding-left: 93px;
-
   padding-right: 318px;
 }
 
@@ -148,7 +147,6 @@ button:hover {
   flex-direction: column;
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,48,58,1) 35%, rgba(0,212,255,1) 100%);
 background-image: url(./people.jpg);
-background-size: ;
 }
 
 .main h1 {
@@ -338,32 +336,9 @@ h2 {
   border: 1px solid #2196F3;
 border-radius: 4px;
   cursor: pointer;
-}
-.icon{
-  border-radius: 4px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border: 1px solid #AFB1B8;
-}
-.icon:hover{
-  border: 1px solid #2196F3;
-  border-radius: 4px;
-    cursor: pointer;
-  fill: #2196f3;
+  --color1:var(--blue)
 }
 
-
-border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 1px solid #AFB1B8;
-
-
-  border: 1px solid #2196F3;
-
-  cursor: pointer;
 
 .second {
   display: flex;
