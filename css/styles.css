@@ -311,32 +311,47 @@ h2 {
   line-height: 100%;
   color: var(--black);
 }
-.boxes{
+.logoclients{
   display: flex;
   flex-direction: row;
- 
   
 }
-.boxes::before {
-  content: url(/images/icons.svg);
+.logoclients svg {
   width: 90px;
   height: 90px;
   display: block;
-
-}
-.boxes:hover::before{
+  padding-top: 20px;
+  margin: auto;
  
-  cursor: pointer;
-  color: var(--blue);
 }
 
-.boxes::after{
-  
+.logoclients div{
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #AFB1B8;
 }
-.boxes:hover::after {
+.logoclients div:hover {
   
-  
+  border: 1px solid #2196F3;
+border-radius: 4px;
+  cursor: pointer;
 }
+.icon{
+  border-radius: 4px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid #AFB1B8;
+}
+.icon:hover{
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+    cursor: pointer;
+  fill: #2196f3;
+}
+
 
 border-radius: 4px;
   width: 170px;
