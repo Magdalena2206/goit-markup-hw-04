@@ -69,6 +69,9 @@ p {
   font-weight: 700;
   text-decoration: none;
 }
+.black-text{
+  color:var(--black);
+}
 .first {
   display: flex;
   flex-direction: row;
@@ -447,6 +450,9 @@ footer {
   line-height: 100%;
   font-weight: 700;
   text-decoration: none;
+}
+.white-text{
+  color: var(--white);
 }
 
 .address {
